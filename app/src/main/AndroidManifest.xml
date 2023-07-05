@@ -12,6 +12,9 @@
         android:theme="@style/Theme.CardiacRecorder"
         tools:targetApi="31">
         <activity
+            android:name=".Login_test"
+            android:exported="false" />
+        <activity
             android:name=".PasswordReset"
             android:exported="false" />
         <activity
