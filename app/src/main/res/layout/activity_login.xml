@@ -27,13 +27,11 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="342dp"
-        android:layout_height="34dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/baseline_person_outline_24"
-        android:drawablePadding="10dp"
-
+        android:background="#d16231"
         android:ems="10"
         android:hint="username"
         android:inputType="textPersonName"
@@ -42,12 +40,13 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:textColorHint="#fff"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintVertical_bias="0.224" />
 
     <EditText
         android:id="@+id/password"
@@ -55,40 +54,64 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/input_bb"
-        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:background="#d16231"
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="password"
-        android:textColorHint="#ACA9A9"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
+        android:textColorHint="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394" />
+        app:layout_constraintVertical_bias="0.336" />
 
     <TextView
         android:id="@+id/fgtpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
+        android:background="#01508b"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
         android:text="Forgot Password?"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintVertical_bias="0.668" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#771814"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.0" />
+
 
     <TextView
         android:id="@+id/creteaccount"
@@ -112,10 +135,11 @@
         android:layout_height="31dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="32dp"
-        android:gravity="center_vertical"
-        android:text="Sign Up"
+        android:background="#771814"
+        android:gravity="center"
         android:paddingLeft="18dp"
-        android:textColor="#F82435"
+        android:text="Sign Up"
+        android:textColor="#fff"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btnfacebook"
@@ -123,39 +147,38 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/creteaccount"
         app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.07" />
+        app:layout_constraintVertical_bias="0.336" />
 
     <Button
         android:id="@+id/btngoogle"
-        android:layout_width="154dp"
-        android:layout_height="60dp"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/white"
-        android:drawableLeft="@drawable/google__g__logo"
         android:drawablePadding="5dp"
         android:text="Google"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:background="#34a853"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnfacebook"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.583" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <Button
         android:id="@+id/btnfacebook"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="171dp"
+        android:layout_height="61dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/white"
-        android:drawableLeft="@drawable/facebook_f_logo__2021_"
         android:drawablePadding="5dp"
         android:text="Facebook"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:background="#3266e1"
         app:layout_constraintBottom_toBottomOf="@+id/btngoogle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -163,62 +186,5 @@
         app:layout_constraintTop_toTopOf="@+id/btngoogle"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/btn_bb"
-        android:backgroundTint="#14D517"
-        android:text="Log in"
-        android:textSize="22dp"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.206" />
-
-    <EditText
-        android:id="@+id/Contact"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/input_bb"
-        android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:hint="contact no"
-        android:textColorHint="#ACA9A9"
-        android:inputType="textPersonName"
-        android:paddingLeft="20dp"
-        android:paddingTop="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/password"
-        app:layout_constraintEnd_toEndOf="@+id/username"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/username"
-        app:layout_constraintTop_toBottomOf="@+id/username"
-        app:layout_constraintVertical_bias="0.511" />
-
-    <TextView
-        android:id="@+id/admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Admin"
-        android:textStyle="bold"
-        android:textColor="#F11B1B"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnfacebook"
-        app:layout_constraintEnd_toEndOf="@+id/btnfacebook"
-        app:layout_constraintStart_toStartOf="@+id/creteaccount"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
