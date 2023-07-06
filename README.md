@@ -67,7 +67,7 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 <table>
  <tr>
   <td>Abu Buckker Sikkhih Labib</td>
-  <td>Abu Buckker Sikkhih Labib</td>
+  <td>Md.Sumon Hossien</td>
  </tr>
  <tr>
   <td>Login Page, Sign In page,cardiac add,delete,edit, Ui test, unit test,github </td>
