@@ -33,4 +33,4 @@ A demo of an app running on android platform that can store blood pressure and h
 <img src = "img/UML Design.jpg" alt = "Splash Screen" title = "Splash Screen" width = "1000" >
 
 
-* More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder.wiki">here</a>
+* More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder/wiki">here</a>
