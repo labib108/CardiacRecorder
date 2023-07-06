@@ -8,7 +8,7 @@
     android:layout_marginBottom="10dp"
     android:orientation="vertical"
     android:id="@+id/bg_item"
-    android:background="@drawable/rounded_corner">
+    android:background="@drawable/mainbg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -108,7 +108,7 @@
             android:text="6 July, 2022"
             android:id="@+id/dateOutput"
             android:layout_marginLeft="40dp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
         <TextView
             android:layout_width="130dp"
             android:layout_height="wrap_content"
@@ -116,13 +116,13 @@
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="10:34 AM"
             android:id="@+id/timeOutput"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
@@ -130,7 +130,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="20dp"
-        android:background="#000000"/>
+        android:background="#FFBB86"/>
 
 
 </LinearLayout>

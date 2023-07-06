@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F44336"
+    android:background="@drawable/item2"
     android:id="@+id/bg_item"
     android:padding="10dp"
     tools:context=".HomeActivity" >
@@ -17,14 +17,15 @@
         android:layout_above="@id/addNewMeasurement"/>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/addNewMeasurement"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add new measurement"
-        android:id="@+id/addNewMeasurement"
-        android:backgroundTint="#16A085"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="61dp"
+        android:backgroundTint="#c50101"
         android:drawableLeft="@drawable/ic_add"
-        android:textSize="20dp"
-        android:layout_alignParentBottom="true"/>
+        android:text="Add new measurement"
+        android:textSize="20dp" />
 
 </RelativeLayout>
 

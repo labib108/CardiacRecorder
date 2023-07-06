@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F44336"
+    android:background="@drawable/crdac"
     android:orientation="vertical"
     tools:context=".EditMeasurement">
 
@@ -14,7 +14,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="70dp"
         android:layout_marginRight="15dp"
-        android:background="@drawable/rounded_corner"
+        android:background="#c50101"
         android:orientation="vertical"
         android:padding="15dp">
 

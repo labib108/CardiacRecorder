@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F44336"
+    android:background="@drawable/mainbg"
     tools:context=".RegisterActivity">
 
     <TextView
@@ -101,7 +101,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/design_default_color_secondary"
+        android:backgroundTint="#FFBB86"
         android:text="REGISTER"
         android:textSize="25dp" />
     <TextView
@@ -118,8 +118,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/alreadyhaveanaccount"
 
-        android:text="Already have an account"
-        android:textColor="@color/black"
+        android:text=""
+        android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
 
 

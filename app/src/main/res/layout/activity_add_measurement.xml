@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/add_bg"
+    android:background="@drawable/crdac"
     android:orientation="vertical"
     tools:context=".AddMeasurement">
 
@@ -15,15 +15,15 @@
         android:padding="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="70dp"
-        android:background="@drawable/rounded_corner">
+        android:layout_marginTop="70dp">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Systolic Pressure"
             android:inputType="number"
-            android:background="@drawable/rounded_corner_edittext"
+            android:background="#c50101"
+            android:textColorHint="#fff"
             android:padding="10dp"
             android:id="@+id/systolicPressure"
             android:layout_margin="10dp"/>
@@ -32,7 +32,8 @@
             android:layout_height="wrap_content"
             android:hint="Diastolic Pressure"
             android:inputType="number"
-            android:background="@drawable/rounded_corner_edittext"
+            android:background="#c50101"
+            android:textColorHint="#fff"
             android:padding="10dp"
             android:id="@+id/diastolicPressure"
             android:layout_margin="10dp"/>
@@ -41,7 +42,8 @@
             android:layout_height="wrap_content"
             android:hint="Heart Rate (in BPM)"
             android:inputType="number"
-            android:background="@drawable/rounded_corner_edittext"
+            android:background="#c50101"
+            android:textColorHint="#fff"
             android:padding="10dp"
             android:id="@+id/heartRate"
             android:layout_margin="10dp"/>
@@ -53,7 +55,8 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:hint="Date"
-                android:background="@drawable/rounded_corner_edittext"
+                android:background="#c50101"
+                android:textColorHint="#fff"
                 android:padding="10dp"
                 android:id="@+id/date"
                 android:inputType="date"
@@ -62,7 +65,8 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:hint="Time"
-                android:background="@drawable/rounded_corner_edittext"
+                android:background="#c50101"
+                android:textColorHint="#fff"
                 android:padding="10dp"
                 android:id="@+id/time"
                 android:inputType="time"
