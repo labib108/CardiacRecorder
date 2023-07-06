@@ -14,7 +14,7 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 <br>
 <table>
  <tr>
-  <img src = "img/WhatsApp Image 2023-07-06 at 3.25.37 PM.jpeg" alt = "Splash Screen" title = "Splash Screen" width = "270" >
+  <img src = "img/Blank diagram.jpeg" alt = "Splash Screen" title = "Splash Screen" width = "270" >
  </tr>
  <tr></tr>
  <tr>
