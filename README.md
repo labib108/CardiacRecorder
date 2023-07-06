@@ -1,4 +1,5 @@
 # CardiacRecorder
+<hr>
 Cardiac Recorder' is a comprehensive platform designed for tracking and managing data related to blood pressure and heart rate. It allows users to update, delete, and modify their records conveniently. The platform provides a user-friendly interface and robust functionality to ensure efficient data management and analysis.
 <br>
 # Features
@@ -41,6 +42,7 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 
 #Team Member
 <hr>
+<hr>
 <table>
  <tr>
   <td>
@@ -61,6 +63,7 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 </table>
 <br>
 #contribution
+<hr>
 <table>
  <tr>
   <td>Abu Buckker Sikkhih Labib</td>
