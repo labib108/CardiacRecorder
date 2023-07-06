@@ -59,4 +59,20 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
   <td>1907109</td>
  </tr>
 </table>
+<br>
+#contribution
+<table>
+ <tr>
+  <td>Abu Buckker Sikkhih Labib</td>
+  <td>Abu Buckker Sikkhih Labib</td>
+ </tr>
+ <tr>
+  <td>Login Page, Sign In page,cardiac add,delete,edit, Ui test, unit test,github </td>
+  <td>Landing Page, Sign Up Page,registration Page</td>
+ </tr>
+ <tr>
+  <td>Readme.me </td>
+  <td>wiki</td>
+ </tr>
+</table>
 * More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder/wiki">here</a>
