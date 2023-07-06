@@ -18,10 +18,10 @@ A demo of an app running on android platform that can store blood pressure and h
 <br>
 <table>
  <tr>
-   <td><img src = "https://github.com/Rafia06/image/blob/main/addmeasure.jpg" alt = "showrecord" title = "showrecord" width = "270" ></td>
-   <td><img src = "https://github.com/Rafia06/image/blob/main/add.jpg" alt = "Add New Measurement" title = "Add New Measurement" width = "270" ></td>
-    <td><img src = "https://github.com/Rafia06/image/blob/main/edit.jpg" alt = "editrecord" title = "editrecord" width = "270" ></td>
-     <td><img src = "https://github.com/Rafia06/image/blob/main/update.jpg" alt = "updaterecord" title = "updaterecord" width = "270" ></td>
+   <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.41 PM (1).jpeg" alt = "showrecord" title = "showrecord" width = "270" ></td>
+   <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.41 PM.jpeg" alt = "Add New Measurement" title = "Add New Measurement" width = "270" ></td>
+    <td><img src = "img/Screenshot_3.png" alt = "editrecord" title = "editrecord" width = "270" ></td>
+     <td><img src = "img/Screenshot_4.png" alt = "updaterecord" title = "updaterecord" width = "270" ></td>
    
  </tr>
 </table> 
