@@ -40,9 +40,6 @@ public class LoginActivity extends AppCompatActivity {
         register=findViewById(R.id.register);
         forgotpassword=findViewById(R.id.forgotpass);
         progressDialog=new ProgressDialog(this);
-        mAuth=FirebaseAuth.getInstance();
-        mUser=mAuth.getCurrentUser();
-
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,46 +56,17 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void perforlogin() {
-        String mail=email.getText().toString();
-        String passcode=password.getText().toString();
-        if(!mail.matches(emailPattern))
-        {
-            email.setError("Enter Correct Email");
-            email.requestFocus();
-        }
-        else if(passcode.isEmpty() || passcode.length()<6)
-        {
-            password.setError("Enter Proper Password");
-        }
-        else
-        {
-            progressDialog.setMessage("Please Wait While Login....");
-            progressDialog.setTitle("Login");
-            progressDialog.setCanceledOnTouchOutside(false);
-            progressDialog.show();
+        String mail = email.getText().toString();
+        String passcode = password.getText().toString();
 
-            mAuth.signInWithEmailAndPassword(mail,passcode).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    if(task.isSuccessful())
-                    {
-                        progressDialog.dismiss();
-                        sendUserToNextActivity();
-                        Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                    }
-                    else
-                    {
-                        progressDialog.dismiss();
-                        Toast.makeText(LoginActivity.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
-                    }
-                }
-            });
+        if (mail.equals("labib@gmail.com") && passcode.equals("123456")) {
+            Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(LoginActivity.this,HomeActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+        } else {
+            Toast.makeText(LoginActivity.this, "Invalid Email or Password", Toast.LENGTH_SHORT).show();
         }
     }
 
-    private void sendUserToNextActivity() {
-        Intent intent=new Intent(LoginActivity.this,HomeActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-    }
 }
