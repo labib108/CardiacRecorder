@@ -84,7 +84,7 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 </table>
 
 <br>
-#Project Cedio
+#Project vedio
 <hr>
-<a href = " https://drive.google.com/drive/folders/18HwX6kYO5_68wjiDmFNdMWUCEhxGXcsF?fbclid=IwAR0RxCiNEdLND-Omo7apYlmZ3DpkeYFvNT-siHQGglcSkJysCq0jAa2G8ME">click here for project vedio</a>
+<a href = " https://drive.google.com/drive/folders/18HwX6kYO5_68wjiDmFNdMWUCEhxGXcsF?fbclid=IwAR0RxCiNEdLND-Omo7apYlmZ3DpkeYFvNT-siHQGglcSkJysCq0jAa2G8ME">click here for project vedio</a><br>
 * More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder/wiki">here</a>
