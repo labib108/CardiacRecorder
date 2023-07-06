@@ -4,7 +4,7 @@ A demo of an app running on android platform that can store blood pressure and h
 ### <ins> **UI Mockup:** </ins>
 <br>
 <br>
-<img src = "https://github.com/Rafia06/image/blob/main/front.jpg" alt = "Splash Screen" title = "Splash Screen" width = "270" >
+<img src = "img/WhatsApp Image 2023-07-06 at 3.25.37 PM.jpeg" alt = "Splash Screen" title = "Splash Screen" width = "270" >
 <br>
 <br>
 <table>
