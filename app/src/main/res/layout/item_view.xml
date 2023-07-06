@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:id="@+id/bg_item"
+    android:background="@drawable/rounded_corner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corner_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Systolic"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Diastolic"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Heart Rate(BPM)"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <View
+                android:layout_width="70dp"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:background="#000000"/>
+            <View
+                android:layout_width="130dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:background="#000000"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="110"
+                android:id="@+id/sysOutput"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="70"
+                android:id="@+id/diasOutput"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="65"
+                android:id="@+id/heartOutput"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 July, 2022"
+            android:id="@+id/dateOutput"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="10:34 AM"
+            android:id="@+id/timeOutput"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"/>
+
+
+</LinearLayout>

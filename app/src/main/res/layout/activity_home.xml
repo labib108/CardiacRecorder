@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    android:id="@+id/bg_item"
+    android:padding="10dp"
+    tools:context=".HomeActivity" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/measurementListView"
+        android:layout_marginTop="3dp"
+        android:layout_above="@id/addNewMeasurement"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new measurement"
+        android:id="@+id/addNewMeasurement"
+        android:backgroundTint="#16A085"
+        android:drawableLeft="@drawable/ic_add"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
