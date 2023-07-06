@@ -87,6 +87,8 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 #Project vedio
 <hr>
 <a href = " https://drive.google.com/drive/folders/18HwX6kYO5_68wjiDmFNdMWUCEhxGXcsF?fbclid=IwAR0RxCiNEdLND-Omo7apYlmZ3DpkeYFvNT-siHQGglcSkJysCq0jAa2G8ME">click here for project vedio</a><br>
+https://drive.google.com/drive/folders/18HwX6kYO5_68wjiDmFNdMWUCEhxGXcsF?fbclid=IwAR0RxCiNEdLND-Omo7apYlmZ3DpkeYFvNT-siHQGglcSkJysCq0jAa2G8ME
+<br>
 *App Vedio
 <a href = " img/app.mp4">App</a>
 *Ui Test Vedio
