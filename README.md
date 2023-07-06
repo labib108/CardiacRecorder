@@ -1,6 +1,5 @@
 # CardiacRecorder
-A demo of an app running on android platform that can store blood pressure and heart rate data of users.
-
+Cardiac Recorder' is a comprehensive platform designed for tracking and managing data related to blood pressure and heart rate. It allows users to update, delete, and modify their records conveniently. The platform provides a user-friendly interface and robust functionality to ensure efficient data management and analysis.
 ### <ins> **UI Mockup:** </ins>
 <br>
 <br>
