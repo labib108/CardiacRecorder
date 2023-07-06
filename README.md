@@ -14,10 +14,6 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 <br>
 <table>
  <tr>
-  <img src = "img/Blank diagram.jpeg" alt = "Splash Screen" title = "Splash Screen" width = "270" >
- </tr>
- <tr></tr>
- <tr>
    <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.38 PM.jpeg" alt = "Entry" title = "Entry" width = "270" ></td>
    <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.39 PM.jpeg" alt = "Register" title = "Register" width = "270" ></td>
    <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.40 PM.jpeg" alt = "Login" title = "Login" width = "270" ></td>
@@ -39,7 +35,7 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 ### <ins> **UML Diagram:** </ins>
 <br>
 <br>
-<img src = "img/UML Design.jpg" alt = "Splash Screen" title = "Splash Screen" width = "1000" >
+<img src = "img/Blank diagram.jpeg" alt = "Splash Screen" title = "Splash Screen" width = "1000" >
 
 #Team Member
 <hr>
