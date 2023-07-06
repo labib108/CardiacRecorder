@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    android:orientation="vertical"
+    tools:context=".EditMeasurement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/systolicPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_edittext"
+            android:hint="Systolic Pressure"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/diastolicPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_edittext"
+            android:hint="Diastolic Pressure"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/heartRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_edittext"
+            android:hint="Heart Rate (in BPM)"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_edittext"
+                android:hint="Date"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_edittext"
+                android:hint="Time"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner_edittext"
+            android:gravity="top"
+            android:hint="Comment"
+            android:lines="5"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:backgroundTint="#0A730E"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/updateM"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#3F51B5"
+            android:textSize="20dp"
+            android:id="@+id/cancel"/>
+    </LinearLayout>
+
+</LinearLayout>
