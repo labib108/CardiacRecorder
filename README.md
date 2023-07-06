@@ -30,7 +30,7 @@ A demo of an app running on android platform that can store blood pressure and h
 ### <ins> **UML Diagram:** </ins>
 <br>
 <br>
-<img src = "https://github.com/Rafia06/image/blob/main/UML_Diagram.png" alt = "Splash Screen" title = "Splash Screen" width = "1000" >
+<img src = "img/UML Design.jpg" alt = "Splash Screen" title = "Splash Screen" width = "1000" >
 
 
-* More details about this android application project can be found <a href="https://github.com/Newbie053/CardiacRecorder2.0/wiki">here</a>
+* More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder.wiki">here</a>
