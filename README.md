@@ -9,9 +9,9 @@ A demo of an app running on android platform that can store blood pressure and h
 <br>
 <table>
  <tr>
-   <td><img src = "https://github.com/Rafia06/image/blob/main/entry.jpg" alt = "Entry" title = "Entry" width = "270" ></td>
-   <td><img src = "https://github.com/Rafia06/image/blob/main/register.jpg" alt = "Register" title = "Register" width = "270" ></td>
-   <td><img src = "https://github.com/Rafia06/image/blob/main/login.jpg" alt = "Login" title = "Login" width = "270" ></td>
+   <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.38 PM.jpeg" alt = "Entry" title = "Entry" width = "270" ></td>
+   <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.39 PM.jpeg" alt = "Register" title = "Register" width = "270" ></td>
+   <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.40 PM.jpeg" alt = "Login" title = "Login" width = "270" ></td>
  </tr>
 </table>  
 <br>
