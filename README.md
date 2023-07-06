@@ -17,6 +17,10 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 <br>
 <table>
  <tr>
+  <img src = "img/WhatsApp Image 2023-07-06 at 3.25.37 PM.jpeg" alt = "Splash Screen" title = "Splash Screen" width = "270" >
+ </tr>
+ <tr></tr>
+ <tr>
    <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.38 PM.jpeg" alt = "Entry" title = "Entry" width = "270" ></td>
    <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.39 PM.jpeg" alt = "Register" title = "Register" width = "270" ></td>
    <td><img src = "img/WhatsApp Image 2023-07-06 at 3.25.40 PM.jpeg" alt = "Login" title = "Login" width = "270" ></td>
@@ -78,4 +82,9 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
   <td>wiki</td>
  </tr>
 </table>
+
+<br>
+#Project Cedio
+<hr>
+<a href = " https://drive.google.com/drive/folders/18HwX6kYO5_68wjiDmFNdMWUCEhxGXcsF?fbclid=IwAR0RxCiNEdLND-Omo7apYlmZ3DpkeYFvNT-siHQGglcSkJysCq0jAa2G8ME">click here for project vedio</a>
 * More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder/wiki">here</a>
