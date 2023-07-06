@@ -39,5 +39,24 @@ Cardiac Recorder' is a comprehensive platform designed for tracking and managing
 <br>
 <img src = "img/UML Design.jpg" alt = "Splash Screen" title = "Splash Screen" width = "1000" >
 
-
+#Team Member
+<hr>
+<table>
+ <tr>
+  <td>
+   <img src = "img/241797135_1250506275391196_8293059983486636012_n.jpg">
+  </td>
+  <td>
+   <img src = "img/WhatsApp Image 2023-07-06 at 4.11.27 PM.jpeg">
+  </td>
+ </tr>
+ <tr>
+  <td>Abu Buckker Sikkhih Labib</td>
+  <td>Md.Sumon Hossien</td>
+ </tr>
+ <tr>
+  <td>1907108</td>
+  <td>1907109</td>
+ </tr>
+</table>
 * More details about this android application project can be found <a href="https://github.com/labib108/CardiacRecorder/wiki">here</a>
