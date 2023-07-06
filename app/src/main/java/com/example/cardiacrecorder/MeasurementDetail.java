@@ -18,6 +18,11 @@ public class MeasurementDetail extends AppCompatActivity {
     Bundle extras;
     LinearLayout linearLayout;
 
+    /**
+     *
+     * @param savedInstanceState
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

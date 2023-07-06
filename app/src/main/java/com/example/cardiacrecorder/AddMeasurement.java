@@ -11,6 +11,10 @@ import com.google.android.material.button.MaterialButton;
 
 public class AddMeasurement extends AppCompatActivity {
 
+    /**
+    *
+     * this is on create function
+    * */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +36,9 @@ public class AddMeasurement extends AppCompatActivity {
             }
         });
 
+        /**
+         * button one click action listener
+         */
         addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -17,6 +17,10 @@ public class HomeActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private recyclerAdapter.RecyclerViewClickListener listener;
 
+    /**
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +61,9 @@ public class HomeActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
+    /**
+     * one click ction listener
+     */
     private void setOnClickListener() {
         listener = new recyclerAdapter.RecyclerViewClickListener() {
             @Override

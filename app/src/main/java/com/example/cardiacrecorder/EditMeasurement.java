@@ -10,11 +10,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
+
+/**
+ * edit measurement class
+ */
 public class EditMeasurement extends AppCompatActivity  {
     private EditText sysOut, diasOut, heartOut, dateOut, timeOut, commentOut;
     MaterialButton updateBtn, cancelBtn;
     int id;
     Bundle extras;
+
+    /**
+     *
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +42,10 @@ public class EditMeasurement extends AppCompatActivity  {
         setMeasurements();
 
         cancelBtn.setOnClickListener(new View.OnClickListener() {
+            /**
+             *
+             * @param view
+             */
             @Override
             public void onClick(View view) {
                 finish();
@@ -40,6 +53,10 @@ public class EditMeasurement extends AppCompatActivity  {
         });
 
         updateBtn.setOnClickListener(new View.OnClickListener() {
+            /**
+             *
+             * @param view
+             */
             @Override
             public void onClick(View view) {
 
@@ -96,6 +113,9 @@ public class EditMeasurement extends AppCompatActivity  {
 
     }
 
+    /**
+     * mesuremnt function
+     */
     private void setMeasurements() {
         if(extras != null)
             id = extras.getInt("id");

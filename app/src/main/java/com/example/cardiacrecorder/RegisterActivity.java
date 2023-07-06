@@ -35,7 +35,14 @@ public class RegisterActivity extends AppCompatActivity {
     FirebaseAuth mAuth;
     FirebaseUser mUser;
 
+    /**
+     *
+     * @param savedInstanceState
+     */
     @SuppressLint("MissingInflatedId")
+    /**
+     *
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +59,10 @@ public class RegisterActivity extends AppCompatActivity {
         mUser=mAuth.getCurrentUser();
 
         alreadyhaveanaccount.setOnClickListener(new View.OnClickListener() {
+            /**
+             *
+             * @param v
+             */
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(RegisterActivity.this,MainActivity.class));
@@ -59,6 +70,10 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
         signupbtn.setOnClickListener(new View.OnClickListener() {
+            /**
+             *
+             * @param v
+             */
             @Override
             public void onClick(View v) {
                 PerforAuth();
@@ -103,6 +118,10 @@ public class RegisterActivity extends AppCompatActivity {
 
                                 String uid = mAuth.getUid();
                                 ref.child(uid).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    /**
+                                     *
+                                     * @param task
+                                     */
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if(task.isSuccessful()){

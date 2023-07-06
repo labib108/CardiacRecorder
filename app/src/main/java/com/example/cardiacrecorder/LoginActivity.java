@@ -28,7 +28,15 @@ public class LoginActivity extends AppCompatActivity {
 
     FirebaseAuth mAuth;
     FirebaseUser mUser;
+
+    /**
+     *
+     * @param savedInstanceState
+     */
     @SuppressLint("MissingInflatedId")
+    /**
+     *
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +52,10 @@ public class LoginActivity extends AppCompatActivity {
         mUser=mAuth.getCurrentUser();
 
         register.setOnClickListener(new View.OnClickListener() {
+            /**
+             *
+             * @param v
+             */
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
@@ -51,6 +63,10 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         login.setOnClickListener(new View.OnClickListener() {
+            /**
+             *
+             * @param v
+             */
             @Override
             public void onClick(View v) {
                 perforlogin();
