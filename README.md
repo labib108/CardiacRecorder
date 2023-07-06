@@ -2,11 +2,11 @@
 Cardiac Recorder' is a comprehensive platform designed for tracking and managing data related to blood pressure and heart rate. It allows users to update, delete, and modify their records conveniently. The platform provides a user-friendly interface and robust functionality to ensure efficient data management and analysis.
 <br>
 # Features
-1.Splash screen: This screen will be shown during starting of the application.
-2.To add record: We can add record of blood pressure and heart rate measurements with date and time.
-3.Show records: We can see the stored records if needed.
-4.Update records: We can update the stored records if needed.
-5.To delete records: We can delete the stored records if needed.
+1.Splash screen: This screen will be shown during starting of the application.<br>
+2.To add record: We can add record of blood pressure and heart rate measurements with date and time.<br>
+3.Show records: We can see the stored records if needed.<br>
+4.Update records: We can update the stored records if needed.<br>
+5.To delete records: We can delete the stored records if needed.<br>
 <br>
 ### <ins> **UI Mockup:** </ins>
 <br>
